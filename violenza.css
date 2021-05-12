@@ -32,7 +32,7 @@ body{
 
 .testo{
   text-align: left;
-  padding-right: 30pt;
+  padding-right: 70pt;
   margin-left: 70pt;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 }
@@ -55,23 +55,26 @@ body{
   width: 45%;
   margin-left: 70pt;
   margin-right: 70pt;
-  margin-bottom: 50pt;
+  margin-bottom: 0pt;
 }
 
 #foto1{display: none;
   margin-left: 70pt;
   margin-right: 70pt;
   width: 45%;
+  margin-bottom: 0pt;
   }
 #foto2{display: none;
   margin-left: 70pt;  
   margin-right: 70pt;
   width: 45%;
+  margin-bottom: 0pt;
   }
 #foto3{display: none;
   margin-left: 70pt;
   width: 45%;
   margin-right: 70pt;
+  margin-bottom: 0pt;
    }
 
 .div-citazione{
@@ -88,6 +91,9 @@ body{
 }
 
 
+.testocartina{
+  padding-right: 70pt;
+  margin-left: 70pt;}
 
 
 
