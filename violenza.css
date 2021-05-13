@@ -1,9 +1,12 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Signika&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 
 body{
   background-color: #ffe4e4;
   text-align: center;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 2rem;
 }
 
@@ -12,15 +15,30 @@ body{
  
 }
 
-
+h4{font-family: 'Signika', sans-serif;}
 
 .titolo{
- font-size: 2.7rem;
+  margin-top: 2;
+  margin-bottom: 1;
+ font-size: 3.7rem;
  color: red;
+ font-family: 'Amatic SC', cursive;
+ 
 }
 
+.sottotitolo{
+  margin-top: 2;
+  font-size: 2.7rem;
+  color: red;
+  font-family: 'Dancing Script', cursive;
+
+ }
 
 
+a{
+  color: #cd1a23;
+  text-decoration: none;
+}
 
 
 
@@ -34,7 +52,7 @@ body{
   text-align: left;
   padding-right: 70pt;
   margin-left: 70pt;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+
 }
 
 .numerobig{
@@ -93,7 +111,8 @@ body{
 
 .testocartina{
   padding-right: 70pt;
-  margin-left: 70pt;}
+  margin-left: 70pt;
+}
 
 
 
