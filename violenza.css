@@ -17,11 +17,15 @@ body{
 
 h4{font-family: 'Signika', sans-serif;}
 
+h2{font-family: 'Signika', sans-serif;
+  color: #cb181d;}
+
+
 .titolo{
   margin-top: 2;
   margin-bottom: 1;
  font-size: 3.7rem;
- color: red;
+ color: #cb181d;
  font-family: 'Amatic SC', cursive;
  
 }
@@ -29,7 +33,7 @@ h4{font-family: 'Signika', sans-serif;}
 .sottotitolo{
   margin-top: 2;
   font-size: 2.7rem;
-  color: red;
+  color: #cb181d;
   font-family: 'Dancing Script', cursive;
 
  }
@@ -103,16 +107,18 @@ a{
    }
 
 .div-citazione{
+  font-weight: bold;
   padding-top: 10pt;
   padding-bottom: 10pt;
   margin-top: 90pt;
   font-size: 2.7rem;
-  background-color: crimson;  
+  background-color: #cb181d;  
 }
 
 .citazione{
   font-style: italic;
   color: grey;
+  font-weight: normal;
 }
 
 
