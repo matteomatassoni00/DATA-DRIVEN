@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Signika&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@900&display=swap');
 body{
   background-color: #ffe4e4;
   text-align: left;
@@ -26,10 +26,12 @@ h2{font-family: 'Signika', sans-serif;
 
 
 .titolo{
+
+ font-family: 'Archivo', sans-serif;
+
   margin:auto;
  font-size: 3.7rem;
- color: #cb181d;
- font-family: 'Source Serif Pro', serif;
+ color: #de2d26;
   background-image: url("titolo.png");
  background-repeat: no-repeat;
  background-position-x: center;
@@ -107,8 +109,9 @@ a{
 
 .div-citazione{
   font-weight: bold;
-  padding-top: 10pt;
-  padding-bottom: 10pt;
+  padding-top: 30pt;
+  padding-bottom: 30pt;
+  padding-left: 30pt;
   margin-top: 90pt;
   font-size: 3rem;
   background-color: #cb181d;  
@@ -122,6 +125,7 @@ a{
   color: whitesmoke;
   font-weight: normal;
   font-size: 1.7rem;
+  padding-bottom: 30pt;
 }
 
 
