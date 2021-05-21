@@ -44,14 +44,21 @@ h2{font-family: 'Signika', sans-serif;
 }
 
 
-
+.keyword{
+  color: #cb181d; 
+  font-size: 103%;
+}
 
 a{
   color: #cd1a23;
   text-decoration: none;
+  font-style: italic;
 }
 
 
+.conclusioni{
+  margin: auto;
+}
 
 
 .immtitolo{
@@ -61,6 +68,7 @@ a{
 
 .testo{
   text-align: left;
+  line-height: 130%;
   
 }
 
@@ -75,10 +83,10 @@ a{
 }
 
 #panca{
-  width: 45%;
-  margin-left: 50pt;
-  margin-right: 70pt;
-  margin-bottom: 30pt;
+  width: 900px;
+  margin: auto;
+  margin-top: 110pt;
+  
 }
 
 #foto0{
@@ -112,7 +120,10 @@ a{
   padding-top: 30pt;
   padding-bottom: 30pt;
   padding-left: 30pt;
-  margin-top: 90pt;
+  
+  margin-top: 110pt;
+  margin-bottom: 110pt;
+
   font-size: 3rem;
   background-color: #cb181d;  
   font-family: 'Source Serif Pro', serif;
