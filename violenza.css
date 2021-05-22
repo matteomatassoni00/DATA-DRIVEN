@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Signika&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@900&display=swap');
@@ -27,7 +26,7 @@ h2{font-family: 'Signika', sans-serif;
 
 .titolo{
 
- font-family: 'Archivo', sans-serif;
+ font-family: 'Source Serif Pro', serif;
   margin:auto;
  font-size: 3.7rem;
  color: #cb181d;
@@ -36,9 +35,8 @@ h2{font-family: 'Signika', sans-serif;
  background-position-x: center;
  background-size: 700px;
  text-align: center;
- padding-bottom: 0pt;
- margin-top: 0pt;
- padding-top: 170pt;
+ padding-bottom: 200pt;
+ font-weight: bold;
  line-height: 150%;
  text-shadow: -1px 0 whitesmoke, 0 1px whitesmoke, 1px 0 whitesmoke, 0 -1px whitesmoke;
  
