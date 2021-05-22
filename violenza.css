@@ -20,33 +20,27 @@ body{
   
 }
 
-.cartina{
-  
- 
-}
-
 h4{font-family: 'Signika', sans-serif;}
 
 h2{font-family: 'Signika', sans-serif;
   color: #cb181d;}
 
-
 .titolo{
 
  font-family: 'Archivo', sans-serif;
-
   margin:auto;
  font-size: 3.7rem;
- color: #de2d26;
-  background-image: url("titolo.png");
+ color: #cb181d;
+  background-image: url("occhio.png");
  background-repeat: no-repeat;
  background-position-x: center;
- 
+ background-size: 700px;
  text-align: center;
  padding-bottom: 0pt;
- margin-top: 5pt;
- padding-top: 130pt;
-
+ margin-top: 0pt;
+ padding-top: 170pt;
+ line-height: 150%;
+ text-shadow: -1px 0 whitesmoke, 0 1px whitesmoke, 1px 0 whitesmoke, 0 -1px whitesmoke;
  
 }
 
