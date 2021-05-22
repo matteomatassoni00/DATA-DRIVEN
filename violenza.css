@@ -33,9 +33,9 @@ h2{font-family: 'Signika', sans-serif;
   background-image: url("occhio.png");
  background-repeat: no-repeat;
  background-position-x: center;
- background-size: 700px;
+ background-size: 770px;
  text-align: center;
- padding-bottom: 200pt;
+ padding-bottom: 250pt;
  font-weight: bold;
  line-height: 150%;
  text-shadow: -1px 0 whitesmoke, 0 1px whitesmoke, 1px 0 whitesmoke, 0 -1px whitesmoke;
@@ -90,25 +90,25 @@ a{
 
 #foto0{
   width: 45%;
-  margin-left: 70pt;
+  margin-left: 30pt;
   margin-right: 70pt;
   margin-bottom: 0pt;
 }
 
 #foto1{display: none;
-  margin-left: 70pt;
+  margin-left: 30pt;
   margin-right: 70pt;
   width: 45%;
   margin-bottom: 0pt;
   }
 #foto2{display: none;
-  margin-left: 70pt;  
+  margin-left: 30pt;  
   margin-right: 70pt;
   width: 45%;
   margin-bottom: 0pt;
   }
 #foto3{display: none;
-  margin-left: 70pt;
+  margin-left: 30pt;
   width: 45%;
   margin-right: 70pt;
   margin-bottom: 0pt;
