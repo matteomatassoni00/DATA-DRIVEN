@@ -13,7 +13,7 @@
 
    <div  style="padding-bottom: 0pt; padding-top: 17pt;">
   
-    <p class="testo">  <img id="foto0" src="foto0.png" style="float: right;" >
+    <p class="testo">  <img id="foto0" src="foto0.png" style="float: right;" onmouseover="mouseover()" >
     <img id="foto1" src="foto1.png" style="float: right;">
     <img id="foto2" src="foto2.png"style="float: right;">
     <img id="foto3" src="foto3.png"style="float: right;"> Nel 2020, a causa del lockdown, il problema della violenza di genere è diventato via via sempre maggiore.<br>
@@ -98,7 +98,7 @@ Una correlazione interresante può essere vista nel tasso di occupazione femmini
 
 <p class="testo">
   Personalmente credo che le due percentuali possano essere facilmente correlate, si vede infatti 
-  che dove le donne lavorano le percentuali di violenza sono maggiori. <br>
+  che dove le donne lavorano le percentuali di violenza sono maggiori. <br><br>
 Questo mi porta a credere che dove le donne hanno la possibilità di lavorare ed emanciparsi, maturano maggiore
 consapevolezza della loro qualità e forza considerando così la denuncia uno strumento valido per combattere l'omertà della società.
 </p>
@@ -112,8 +112,18 @@ consapevolezza della loro qualità e forza considerando così la denuncia uno st
 <br>
 <div class="conclusioni">
   <h4>CONCLUSIONI</h4>
-  <p class="testo">Questo progetto dimostra quanto questo tema nonostante sia considerato e definito un fatto sociale e di dominio pubblico in realtà continua a svilupparsi senza sosta.
-    Specialmente in questo ultimo anno a causa della pandemia che ha imposto per un lungo periodo un distacco sociale e quindi il venir meno di possibilità di confronto gli atti di violenza sono incrementati. Fortunatamente molte associazioni hanno cercato di fornire assistenza psicologica a distanza  alle vittime, uno spiraglio di speranza che speriamo possa dare fiducia a coloro che hanno paura di denunciare. 
+  <p class="testo">
+    Questo progetto dimostra quanto questo tema nonostante sia considerato e 
+    definito un fatto sociale e di dominio pubblico in realtà continua a svilupparsi senza sosta.<br>
+    Specialmente in questo ultimo anno a causa della 
+    <a href="https://www.ilfattoquotidiano.it/2020/11/25/con-il-lockdown-e-aumentata-la-violenza-sulle-donne-nel-2020-uccisa-una-donna-ogni-3-giorni-raddoppiano-i-femminicidi-suicidi/6015926/" target="_blank">pandemia</a> 
+    che ha imposto per un lungo periodo 
+    un distacco sociale e quindi il venir meno di possibilità di confronto gli atti di violenza sono incrementati.<br>
+    <br>Fortunatamente molte associazioni hanno cercato di fornire assistenza psicologica a distanza alle vittime, 
+    uno spiraglio di speranza che speriamo possa dare fiducia a coloro che hanno paura di denunciare. 
+
+    Purtroppo il percorso per l'arrivo è ancora lungo, ma credo che tenere alta l'attenzione e dare 
+    <span class="keyword">voce ai fatti</span> sia l'unica strada percorribile
     </p>
   
   <video width="100%" poster="tv8.png" controls style="margin-top: 30pt;">
@@ -142,7 +152,7 @@ consapevolezza della loro qualità e forza considerando così la denuncia uno st
 <script>
 
 
-  function cambia1(){
+function cambia1(){
 var immagine = document.getElementById("foto0");
 immagine.style.display = "none";
 var immagine = document.getElementById("foto1");
@@ -169,9 +179,13 @@ var y=true;
 
 function scrolla() {
 x += 1;
-
   if(x>50 && y){cambia1();y=false}
+}
 
+function mouseover() {
+  if(y){
+    cambia1();
+  }
 }
 
 
