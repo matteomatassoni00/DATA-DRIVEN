@@ -53,10 +53,14 @@ a{
   text-decoration: none;
   font-style: italic;
 }
-
+a:hover{
+  text-decoration: underline;
+  color: black;
+}
 
 .conclusioni{
   margin: auto;
+  margin-top: 50pt;
 }
 
 
@@ -137,6 +141,7 @@ a{
   font-weight: normal;
   font-size: 1.7rem;
   padding-bottom: 30pt;
+  text-decoration: none;
 }
 
 
