@@ -4,21 +4,31 @@
 <link rel="stylesheet" href="violenza.css">
 <link rel="shortcut icon" href="matteo2.ico">
 <title>Contro La Violenza</title>
+
+
 </head>
 <body onscroll="scrolla()">
 
-    <h1 class="titolo" >VIOLENZA SULLE DONNE<br>
-    <span class="sottotitolo">UN PROBLEMA SENZA FINE</span></h1>
+  <div style="margin-bottom: 10pt; margin-top: 0pt; padding-bottom: 500px; margin-left: 0pt;">
+    <img style="position: absolute; z-index: 1; width: 99.49%; height: 500px;" src="titolo.png">
+  </div>  
+   
+  
+  
+<div style="max-width: 900px; margin: auto; display: block; margin-top: 0pt; ">
 
-   <p style=" font-size: 3.7rem; text-align: center; margin-top: 25pt;">In Italia il 31.5%  delle donne <br> ha subito violenza sessuale, fisica o psicologica nella sua vita.</p> 
 
+<div style="margin-bottom: 20pt; margin-top: 70pt; "><img id="foto0" src="foto0.png" onmouseover="mouseover()" >
+  <img id="foto1" src="foto1.png" >
+  <img id="foto2" src="foto2.png">
+  <img id="foto3" src="foto3.png"></div>
+
+   <p style="z-index: 100; font-size: 3.7rem; text-align: center; margin-top: 5pt; margin-bottom: 10pt;">In Italia il 31.5%  delle donne <br> ha subito violenza sessuale, fisica o psicologica nella sua vita.</p> 
+   <p class="citazione" style="margin-bottom: 10pt; color: gray; text-align: center; font-size: 1rem;"> fonte: <a style="color: gray;"  href="http://dati-violenzadonne.istat.it/" target="_blank">istat.it</a></p>
 
    <div  style="padding-bottom: 0pt; padding-top: 17pt;">
   
-    <p class="testo">  <img id="foto0" src="foto0.png" style="float: right;" onmouseover="mouseover()" >
-    <img id="foto1" src="foto1.png" style="float: right;">
-    <img id="foto2" src="foto2.png"style="float: right;">
-    <img id="foto3" src="foto3.png"style="float: right;"> Nel 2020, a causa del
+    <p class="testo"> Nel 2020, a causa del
     <a href="https://www.ilfattoquotidiano.it/2020/11/25/con-il-lockdown-e-aumentata-la-violenza-sulle-donne-nel-2020-uccisa-una-donna-ogni-3-giorni-raddoppiano-i-femminicidi-suicidi/6015926/" target="_blank"> lockdown,</a> il problema della violenza di genere è diventato via via sempre maggiore.<br>
     Perciò ho voluto creare questo progetto, per poter capire meglio la reale gravità di questo problema, molte volte sottovalutato e sminuito. <br></p>   
 </div>
@@ -172,7 +182,7 @@ Condividi su: <a href="https://www.facebook.com/sharer/sharer.php?u=https://matt
 
 
 
-
+</div>
 
 
 
@@ -186,21 +196,21 @@ function cambia1(){
 var immagine = document.getElementById("foto0");
 immagine.style.display = "none";
 var immagine = document.getElementById("foto1");
-immagine.style.display="inline";
+immagine.style.display="block";
 setTimeout("cambia2();", 700);
 }
 function cambia2(){
 var immagine = document.getElementById("foto1");
 immagine.style.display = "none";
 var immagine = document.getElementById("foto2");
-immagine.style.display="inline";
+immagine.style.display="block";
 setTimeout("cambia3();", 700);
 }
 function cambia3(){
 var immagine = document.getElementById("foto2");
 immagine.style.display = "none";
 var immagine = document.getElementById("foto3");
-immagine.style.display="inline";
+immagine.style.display="block";
 }
 
 
@@ -209,11 +219,12 @@ var y=true;
 
 function scrolla() {
 x += 1;
-  if(x>50 && y){cambia1();y=false}
+  if(x>30 && y){y=false;cambia1();}
 }
 
 function mouseover() {
   if(y){
+    y=false;
     cambia1();
   }
 }

@@ -8,15 +8,12 @@ html {
   scroll-behavior: smooth;
 }
 
-
 body{
   background-color: #ffe4e4;
   text-align: left;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 2rem;
-  max-width: 900px;
-  margin: auto;
-  
+ margin-top: 0%;  
 }
 
 h4{font-family: 'Signika', sans-serif;}
@@ -24,15 +21,11 @@ h4{font-family: 'Signika', sans-serif;}
 
 
 .titolo{
-  font-family: 'Source Serif Pro', serif;
+  font-family: 'Signika', sans-serif;
  
   margin:auto;
  font-size: 3.7rem;
  
-  background-image: url("occhio.png");
- background-repeat: no-repeat;
- background-position-x: center;
- background-size: 770px;
  text-align: center;
  padding-bottom: 250pt;
  font-weight: 900;
@@ -42,9 +35,9 @@ h4{font-family: 'Signika', sans-serif;}
 }
 
 .sottotitolo{
- font-family: 'Source Serif Pro', serif;
+  font-family: 'Signika', sans-serif;
   margin:auto;
- font-size: 2.7rem;
+ font-size: 3.5rem;
  text-align: center;
  padding-bottom: 250pt;
  font-weight: bold;
@@ -103,29 +96,31 @@ a:hover{
 }
 
 #foto0{
-  width: 45%;
-  margin-left: 30pt;
-  margin-right: 70pt;
-  margin-bottom: 0pt;
+  width: 70%;
+  display: block;
+  margin:0px auto;
+      text-align:center;
+  
 }
 
 #foto1{display: none;
-  margin-left: 30pt;
-  margin-right: 70pt;
-  width: 45%;
-  margin-bottom: 0pt;
+
+  width: 70%;
+ 
+  margin:0px auto;
+      text-align:center;
   }
 #foto2{display: none;
-  margin-left: 30pt;  
-  margin-right: 70pt;
-  width: 45%;
-  margin-bottom: 0pt;
+  
+  width: 70%;
+  margin:0px auto;
+      text-align:center;
   }
 #foto3{display: none;
-  margin-left: 30pt;
-  width: 45%;
-  margin-right: 70pt;
-  margin-bottom: 0pt;
+
+  width: 70%;
+  margin:0px auto;
+      text-align:center;
    }
 
 .div-citazione{
