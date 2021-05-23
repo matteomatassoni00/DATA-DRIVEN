@@ -28,7 +28,7 @@ h4{font-family: 'Signika', sans-serif;}
  
   margin:auto;
  font-size: 3.7rem;
- color: #cb181d;
+ 
   background-image: url("occhio.png");
  background-repeat: no-repeat;
  background-position-x: center;
@@ -38,13 +38,13 @@ h4{font-family: 'Signika', sans-serif;}
  font-weight: bold;
  line-height: 100%;
  text-shadow: -1px 0 whitesmoke, 0 1px whitesmoke, 1px 0 whitesmoke, 0 -1px whitesmoke;
+ 
 }
 
 .sottotitolo{
  font-family: 'Source Serif Pro', serif;
   margin:auto;
  font-size: 2.7rem;
- color: #cb181d;
  text-align: center;
  padding-bottom: 250pt;
  font-weight: bold;
