@@ -18,6 +18,14 @@ body{
 
 h4{font-family: 'Signika', sans-  ;}
 
+
+.fullbox{
+  max-width: 900px;
+  margin: auto; 
+  display: block; 
+  margin-top: 0pt; 
+}
+
 .divtitolo{
   height: 550px;
   background-image: url(vetro.jpg);
